@@ -1,0 +1,27 @@
+.header{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 3vw;
+    position: fixed;
+    background-color: rgba(246, 246, 246, 0.414);
+    backdrop-filter: blur(0.5px);
+}
+
+.logo{
+    font-family: "Anton", sans-serif;
+    font-size: 20px;
+    background-color: #59d1e6;
+    color: rgb(246, 246, 246);
+    padding-left: 3vw;
+    padding-right: 10px;
+    height: 100%;
+    font-size: 50px;
+    text-align: center;
+}
+
+.navigation{
+    display: flex;
+    align-items: center;
+}

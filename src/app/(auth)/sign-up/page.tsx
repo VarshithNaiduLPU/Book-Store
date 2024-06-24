@@ -13,6 +13,10 @@ const signup = () => {
               <span className='logo'>FOLIO</span>
             </div>
             <form action="#">
+              <label htmlFor="username">
+                USERNAME
+                <input id='username' type="text" />
+              </label>
               <label htmlFor="email">
                 EMAIL
                 <input id='email' type="text" />

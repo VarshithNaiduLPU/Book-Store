@@ -1,5 +1,6 @@
 :root{
     --pad : 6vw;
+    --pad-block : 6vh;
     --light : rgb(246, 246, 246);
     --link : rgb(113, 113, 255);
     --gap : 10px;
@@ -38,7 +39,7 @@
 .right{
     width: 50vw;
     height: 100vh;
-    padding-block: var(--pad);
+    padding-block: var(--pad-block);
     padding-left: var(--pad);
     background-image: url("/noise.png");
     background-repeat: repeat;
@@ -167,11 +168,11 @@ button{
     }
 
     .form-head{
-        font-size: 12vw;
+        font-size: 8vw;
     }
     
     label, button{
-        font-size: 6vw;
+        font-size: 4vw;
     }
 
     button{

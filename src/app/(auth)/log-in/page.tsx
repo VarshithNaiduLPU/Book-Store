@@ -13,9 +13,9 @@ const login = () => {
               <span className='logo'>FOLIO</span>
             </div>
             <form action="#">
-              <label htmlFor="email">
-                EMAIL
-                <input id='email' type="text" />
+              <label htmlFor="username">
+                USERNAME
+                <input id='username' type="text" />
               </label>
               <label htmlFor="password">
                 PASSWORD

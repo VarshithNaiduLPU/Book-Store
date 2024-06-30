@@ -5,7 +5,7 @@ export async function POST() {
       await logout();
     } catch (error) {
       console.error('Error deleting cookie:', error);
-      return;
+      return null;
     }
     return null;
   }

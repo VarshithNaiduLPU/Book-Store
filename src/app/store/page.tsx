@@ -1,5 +1,4 @@
 import React from 'react'
-import "./store.css"
 
 const store = () => {
   return (

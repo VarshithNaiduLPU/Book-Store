@@ -12,6 +12,11 @@ export async function POST() {
         }
       );
     }
-    return null;
+    return Response.json(
+      {
+        statusCode: 200,
+        body: JSON.stringify({ msg : "Logged out sucessfully" }),
+      }
+    );
   }
   
